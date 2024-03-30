@@ -1,0 +1,45 @@
+body{
+    background:linear-gradient(280deg,violet,yellow);
+}
+h1{
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size:2rem;
+    height:70px;
+    background: linear-gradient(180deg,rgb(211, 24, 49),pink);
+}
+#main-container{
+    border:3px solid black;
+    width:auto;
+    height:auto;
+    margin:10px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 20px 20px grey;
+}
+.container{
+    height:300px;
+    width:auto;
+    display: flex;
+    justify-content: space-evenly;
+    background:linear-gradient(120deg,rgb(13, 143, 175),rgb(115, 21, 128));
+    align-items: center;
+}
+.dimensions{
+    width:200px;
+    height:200px;
+    border:2px solid black;
+}
+.dimensions:hover{
+    border:10px solid black;
+}
+marquee{
+    background-color: whitesmoke;
+    height:50px;
+    border:2px solid black;
+    text-align: center;
+    font-size: 2rem;
+    margin:10px 50px 0px 50px;
+}
+
